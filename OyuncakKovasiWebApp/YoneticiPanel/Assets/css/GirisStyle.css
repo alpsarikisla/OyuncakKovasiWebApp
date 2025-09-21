@@ -1,0 +1,87 @@
+﻿*{margin:0; padding:0;}
+body {
+    background-image:url(../Resimler/girisArkaplan.jpg);
+    background-size:100%;
+    font-family:Calibri;
+}
+.golge {
+    box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+    -webkit-box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+    -moz-box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+}
+.golge2 {
+    box-shadow: 9px 9px 5px -1px rgba(151,21,153,0.33);
+    -webkit-box-shadow: 9px 9px 5px -1px rgba(151,21,153,0.33);
+    -moz-box-shadow: 9px 9px 5px -1px rgba(151,21,153,0.33);
+}
+.anaTasiyici
+{
+    width:800px;
+    margin:200px auto;
+    border:1px solid silver;
+    background-color:white;
+    border-radius:20px;
+
+}
+.sol {
+    float: left;
+    width: 400px;
+    height: 348px;
+    background-image: url(../Resimler/GirisPanelBanner.jpg);
+    background-size: 440px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color:white;
+}
+   
+.sag{
+    float:left;
+    width:360px;
+    padding:20px;
+}
+.baslik {
+    text-align: center;
+    color: dimgray;
+    padding-bottom:7px;
+    border-bottom:1px solid silver;
+    margin-bottom:15px;
+}
+.satir
+{
+    padding:7px 0;
+}
+.metinKutu {
+    width: 340px ;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #001473;
+    color:#001473;
+}
+.buton {
+    width: 360px;
+    padding: 10px 0;
+    background-color: #001473;
+    color:white;
+    font-weight:900;
+    font-size:14pt;
+    border-radius:15px;
+    border:none;
+}
+.buton:hover
+{
+    background-color:#004ea3;
+    cursor:pointer;
+
+}
+.sifremiUnuttum {
+    text-decoration: none;
+    color: #001473;
+}
+.mesaj {
+    width: 340px;
+    padding: 10px;
+    color: white;
+    background-color: #ff9393;
+    border-radius: 7px;
+    border: 1px solid #7d0909;
+}
