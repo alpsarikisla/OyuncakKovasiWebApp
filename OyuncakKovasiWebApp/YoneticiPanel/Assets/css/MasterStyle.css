@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri
+}
+
+.ustBolum {
+    background-color: #304269;
+    min-height: 80px;
+}
+
+.logo {
+    color: white;
+    padding: 20px;
+    font-family: "SUSE Mono";
+    float: left;
+}
+
+.kullaniciBase {
+    color: white;
+    width: 400px;
+    float: right;
+    padding: 26px 0;
+    text-align: right;
+}
+
+    .kullaniciBase a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+
+.solTaraf {
+    width: 200px;
+    padding: 15px 0;
+    border-right: 1px solid #001473;
+    height: 800px;
+    float: left;
+    background-color: #D9E8F5
+}
+
+    .solTaraf a {
+        display: block;
+        padding: 5px 15px;
+        text-decoration: none;
+        color: #304269;
+        border-bottom: 1px solid #304269;
+    }
+
+        .solTaraf a:hover {
+            background-color: #F26101;
+            color:white;
+        }
+
+.icerik {
+    width: 1550px;
+    padding: 15px;
+    float: left;
+}

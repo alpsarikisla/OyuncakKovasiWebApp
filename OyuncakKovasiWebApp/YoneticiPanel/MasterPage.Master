@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="OyuncakKovasiWebApp.YoneticiPanel.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="assets\css\MasterStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="ustBolum">
+                <h2 class="logo">Oyuncak Kovası - Admin</h2>
+                <div class="kullaniciBase">
+                    <asp:Label ID="lbl_kullanici" runat="server">Merhaba:</asp:Label>
+                    <asp:LinkButton ID="lbtn_cikis" runat="server">Çıkış Yap</asp:LinkButton>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="tasiyici">
+                <div class="solTaraf">
+                    <a href="Default.aspx">Panel Anasayfa</a>
+                    <a href="#">Kategori Ekle</a>
+                    <a href="#">Kategoriler</a>
+                    <a href="#">Makale Ekle</a>
+                    <a href="#">Makaleler</a>
+                    <a href="#">Yorumlar</a>
+                    <a href="#">Üyeler</a>
+                    <a href="#">Kullanıcılar</a>
+                </div>
+                <div class="icerik">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

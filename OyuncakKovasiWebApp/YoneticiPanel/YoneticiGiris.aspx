@@ -20,10 +20,10 @@
                     <p>Giriş Yapmak İçin Lütfen bilgilerinizi Giriniz</p>
                 </div>
                 <div class="satir">
-                    <asp:TextBox ID="tb_mail" runat="server" CssClass="metinKutu" placeholder="mail adresiniz"></asp:TextBox>
+                    <asp:TextBox ID="tb_mail" runat="server" CssClass="metinKutu" placeholder="mail adresiniz" Text="developer@developer.com"></asp:TextBox>
                 </div>
                 <div class="satir">
-                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu" placeholder="Şifreniz"></asp:TextBox>
+                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu" placeholder="Şifreniz" Text="1234"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <asp:Button ID="btn_giris" runat="server" Text="Giriş Yap" CssClass="buton" OnClick="btn_giris_Click" />

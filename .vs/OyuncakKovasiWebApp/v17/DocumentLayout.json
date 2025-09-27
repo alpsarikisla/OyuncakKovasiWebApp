@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\yoneticigiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\yoneticigiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\yoneticigiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\yoneticigiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\girisstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\girisstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,38 +39,12 @@
           ]
         },
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 260,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GirisStyle.css",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\GirisStyle.css",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\GirisStyle.css",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\GirisStyle.css",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\GirisStyle.css",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-21T12:25:52.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "YoneticiGiris.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx.cs",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx.cs",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:17:38.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "YoneticiGiris.aspx",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx",
               "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx",
@@ -74,20 +52,59 @@
               "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\YoneticiGiris.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-21T10:23:00.414Z",
+              "WhenOpened": "2025-09-27T13:05:32.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx.cs",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:57:10.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master.cs",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master.cs",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:56:23.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-27T11:12:31.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VeriModel.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModel.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\VeriModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T10:29:17.551Z",
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-27T11:42:54.399Z",
               "EditorCaption": ""
             }
           ]

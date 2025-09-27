@@ -25,6 +25,8 @@ namespace OyuncakKovasiWebApp.YoneticiPanel
                     Yonetici y = model.YoneticiGiris(tb_mail.Text.Trim(), tb_sifre.Text);
                     if(y != null)
                     {
+                        Session["yonetici"] = y;
+                        //Veriyi Client'ın RAM'inde tutmak için kullanılır
                         Response.Redirect("Default.aspx");
                     }
                     else
