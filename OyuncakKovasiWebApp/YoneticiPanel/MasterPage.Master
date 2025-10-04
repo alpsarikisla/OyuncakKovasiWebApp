@@ -26,8 +26,8 @@
             <div class="tasiyici">
                 <div class="solTaraf">
                     <a href="Default.aspx">Panel Anasayfa</a>
-                    <a href="#">Kategori Ekle</a>
-                    <a href="#">Kategoriler</a>
+                    <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                    <a href="KategoriListeleGridView.aspx">Kategoriler</a>
                     <a href="#">Makale Ekle</a>
                     <a href="#">Makaleler</a>
                     <a href="#">Yorumlar</a>

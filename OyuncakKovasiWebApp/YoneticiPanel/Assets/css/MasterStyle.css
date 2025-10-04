@@ -60,3 +60,84 @@ body {
     padding: 15px;
     float: left;
 }
+.formTasiyici
+{
+
+}
+.formBaslik {
+    border: 1px solid #001473;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: none;
+    background-color: #D9E8F5;
+    color: #001473;
+    padding:15px;
+}
+.formIcerik {
+    border: 1px solid #001473;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding:20px;
+}
+.satir
+{
+    padding:10px 0;
+}
+.etiket
+{
+    margin-bottom:10px;
+}
+.metinKutu {
+    width: 400px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #001473;
+    color: #001473;
+    margin-top:10px;
+}
+.secimKutu label{
+    margin-left:10px;
+}
+.buton {
+    padding: 10px 35px;
+    background-color: #001473;
+    color: white;
+    font-weight: 900;
+    font-size: 14pt;
+    border-radius: 15px;
+    border: none;
+}
+    .buton:hover {
+        background-color: #004ea3;
+        cursor: pointer;
+    }
+.basariliPanel {
+    background-color: #a6ffa8;
+    color: #0c7a0e;
+    border: 1px solid #0c7a0e;
+    border-radius:7px;
+    padding:20px;
+}
+.basarisizPanel {
+    background-color: #ffb3b3;
+    color: #9a0b0b;
+    border: 1px solid #9a0b0b;
+    border-radius: 7px;
+    padding: 20px;
+}
+.liste{
+    width:100%;
+}
+.liste tbody tr th{
+    padding:10px;
+    font-size:14pt;
+    background-color:#efefef;
+}
+    .liste tbody tr td {
+        padding: 5px 10px;
+    }
+/*.listeBaslik {
+    padding: 10px;
+    font-size: 14pt;
+    background-color: #c4fcb4;
+}*/
