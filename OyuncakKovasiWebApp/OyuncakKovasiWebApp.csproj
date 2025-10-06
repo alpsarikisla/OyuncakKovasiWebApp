@@ -74,6 +74,7 @@
     <Content Include="YoneticiPanel\Assets\Resimler\girisArkaplan.jpg" />
     <Content Include="YoneticiPanel\Assets\Resimler\GirisPanelBanner.jpg" />
     <Content Include="YoneticiPanel\Default.aspx" />
+    <Content Include="YoneticiPanel\KategoriDuzenle.aspx" />
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\KategoriListeleGridView.aspx" />
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\KategoriEkle.aspx.cs">
       <DependentUpon>KategoriEkle.aspx</DependentUpon>
