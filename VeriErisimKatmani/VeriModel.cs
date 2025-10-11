@@ -201,5 +201,39 @@ namespace VeriErisimKatmani
         }
 
         #endregion
+
+        #region Makale Metotları
+
+        public bool MakaleEkle(Makale mak)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Makaleler(YazarID,KategoriID,Baslik,Icerik,Ozet,KapakResim,GoruntulemeSayi,EklemeTarihi,SilinMisMi,AktifMi) VALUES(@yazarID,@kategoriID,@baslik,@icerik,@ozet,@kapakResim,@goruntulemeSayi,@eklemeTarihi,@silinMisMi,@aktifMi)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@yazarID", mak.YazarID);
+                cmd.Parameters.AddWithValue("@kategoriID", mak.KategoriID);
+                cmd.Parameters.AddWithValue("@baslik", mak.Baslik);
+                cmd.Parameters.AddWithValue("@icerik", mak.Icerik);
+                cmd.Parameters.AddWithValue("@ozet", mak.Ozet);
+                cmd.Parameters.AddWithValue("@kapakResim", mak.KapakResim);
+                cmd.Parameters.AddWithValue("@goruntulemeSayi", mak.GoruntulemeSayi);
+                cmd.Parameters.AddWithValue("@eklemeTarihi", mak.EklemeTarihi);
+                cmd.Parameters.AddWithValue("@silinMisMi", mak.SilinmisMi);
+                cmd.Parameters.AddWithValue("@aktifMi", mak.AktifMi);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        #endregion
     }
 }

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\oyuncakkovasiwebapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\masterstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\masterstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\kategorilistelegridview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\kategorilistelegridview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\masterstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6076C123-F9D3-4AD8-9A74-FAD366F0E196}|OyuncakKovasiWebApp\\OyuncakKovasiWebApp.csproj|solutionrelative:oyuncakkovasiwebapp\\yoneticipanel\\assets\\css\\masterstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\oyuncakkovasiwebapp\\verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9AD305-E568-4D74-8DE2-43DF528F7AF2}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,47 +42,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 127,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 351,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KategoriDuzenle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA6wCoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T12:17:04.49Z",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\Web.config",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\Web.config",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\Web.config",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-11T12:35:44.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KategoriDuzenle.aspx",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriDuzenle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T12:16:37.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "KategoriEkle.aspx",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriEkle.aspx",
               "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriEkle.aspx",
@@ -90,72 +71,85 @@
               "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriEkle.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T12:15:55.086Z",
+              "WhenOpened": "2025-10-11T11:09:53.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VeriModel.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModel.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\VeriModel.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAqwIYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MakaleEkle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T11:32:17.416Z",
+              "WhenOpened": "2025-10-11T11:05:03.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KategoriListeleGridView.aspx",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListeleGridView.aspx",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListeleGridView.aspx",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListeleGridView.aspx",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListeleGridView.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T10:53:15.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MasterStyle.css",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\MasterStyle.css",
               "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\MasterStyle.css",
               "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\MasterStyle.css",
               "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\Assets\\css\\MasterStyle.css",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAK0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-05T10:52:24.807Z",
+              "WhenOpened": "2025-10-11T10:58:56.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-11T10:57:02.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MakaleEkle.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-11T10:56:03.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "KategoriListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAABDAAAAAAAAAA==",
+              "Title": "VeriModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModel.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\VeriModel.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\VeriModel.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwHAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T10:45:38.2Z",
+              "WhenOpened": "2025-10-11T10:46:07.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KategoriListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeDocumentMoniker": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeToolTip": "OyuncakKovasiWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-04T12:29:42.023Z",
+              "DocumentIndex": 7,
+              "Title": "Makale.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\Makale.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\Makale.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\OyuncakKovasiWebApp\\VeriErisimKatmani\\Makale.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\Makale.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:40:16.166Z",
               "EditorCaption": ""
             }
           ]

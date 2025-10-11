@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link href="assets\css\MasterStyle.css" rel="stylesheet" />
+   
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -28,7 +29,7 @@
                     <a href="Default.aspx">Panel Anasayfa</a>
                     <a href="KategoriEkle.aspx">Kategori Ekle</a>
                     <a href="KategoriListele.aspx">Kategoriler</a>
-                    <a href="#">Makale Ekle</a>
+                    <a href="MakaleEkle.aspx">Makale Ekle</a>
                     <a href="#">Makaleler</a>
                     <a href="#">Yorumlar</a>
                     <a href="#">Üyeler</a>
@@ -42,5 +43,6 @@
 
         </div>
     </form>
+   
 </body>
 </html>

@@ -171,3 +171,19 @@ body {
     border-radius: 3px;
     color:#001473;
 }
+.solKolon{
+    float:left;
+    width:500px;
+}
+.sagKolon {
+    float: right;
+    width: 1000px;
+}
+.fullwith{
+    width:95%;
+}
+.dropdown
+{
+    background-color:white;
+    width:420px;
+}
