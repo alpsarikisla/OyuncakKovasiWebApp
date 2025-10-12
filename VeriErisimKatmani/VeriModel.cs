@@ -171,6 +171,7 @@ namespace VeriErisimKatmani
                 con.Close();
             }
         }
+
         public Kategori kategoriGetir(int id)
         {
             try
@@ -220,6 +221,134 @@ namespace VeriErisimKatmani
                 cmd.Parameters.AddWithValue("@eklemeTarihi", mak.EklemeTarihi);
                 cmd.Parameters.AddWithValue("@silinMisMi", mak.SilinmisMi);
                 cmd.Parameters.AddWithValue("@aktifMi", mak.AktifMi);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        /// <summary>
+        /// Silinme Durumuna göre Makaleleri listeler
+        /// </summary>
+        /// <param name="silinmeDurum">
+        /// 1 silinmiş olan makaleleri listeler
+        /// 0 silinmemiş olan makaleleri listeler
+        /// -1 tüm makaleleri listeler
+        /// </param>
+        /// <returns>Makale Koleksiyonu döndürür</returns>
+        public List<Makale> MakaleListele(int silinmeDurum)
+        {
+            List<Makale> makaleler = new List<Makale>();
+            try
+            {
+                string Query = "SELECT M.ID,M.YazarID, Y.KullaniciAdi,M.KategoriID, K.Isim, M.Baslik,M.Icerik,M.Ozet,M.KapakResim,M.GoruntulemeSayi,M.EklemeTarihi,M.SilinmisMi,M.AktifMi FROM Makaleler AS M JOIN Yoneticiler AS Y ON M.YazarID = Y.ID JOIN Kategoriler AS K ON M.KategoriID = K.ID";
+                if (silinmeDurum == -1)
+                {
+                    cmd.CommandText = Query;
+                }
+                else if(silinmeDurum == 1)
+                {
+                    cmd.CommandText = Query + " WHERE M.SilinmisMi = 1";
+                }
+                else if (silinmeDurum == 0)
+                {
+                    cmd.CommandText = Query +" WHERE M.SilinmisMi = 0";
+                }
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = reader.GetInt32(0);
+                    mak.YazarID = reader.GetInt32(1);
+                    mak.Yazar = reader.GetString(2);
+                    mak.KategoriID = reader.GetInt32(3);
+                    mak.KategoriAdi = reader.GetString(4);
+                    mak.Baslik = reader.GetString(5);
+                    if (!reader.IsDBNull(6)) { mak.Icerik = reader.GetString(6); }
+                    if (!reader.IsDBNull(7)) { mak.Ozet = reader.GetString(7); }
+                    mak.KapakResim = reader.GetString(8);
+                    mak.GoruntulemeSayi = reader.GetInt32(9);
+                    mak.EklemeTarihi = reader.GetDateTime(10);
+                    mak.SilinmisMi = reader.GetBoolean(11);
+                    mak.AktifMi = reader.GetBoolean(12);
+                    mak.AktifMiStr = reader.GetBoolean(12) ? "Aktif" : "Pasif";
+                    makaleler.Add(mak);
+                }
+                return makaleler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public Makale MakaleGetir(int id)
+        {
+            try
+            {
+               cmd.CommandText=  "SELECT M.ID,M.YazarID, Y.KullaniciAdi,M.KategoriID, K.Isim, M.Baslik,M.Icerik,M.Ozet,M.KapakResim,M.GoruntulemeSayi,M.EklemeTarihi,M.SilinmisMi,M.AktifMi FROM Makaleler AS M JOIN Yoneticiler AS Y ON M.YazarID = Y.ID JOIN Kategoriler AS K ON M.KategoriID = K.ID WHERE M.ID = @id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Makale mak = null;
+                while (reader.Read())
+                {
+                    mak= new Makale();
+                    mak.ID = reader.GetInt32(0);
+                    mak.YazarID = reader.GetInt32(1);
+                    mak.Yazar = reader.GetString(2);
+                    mak.KategoriID = reader.GetInt32(3);
+                    mak.KategoriAdi = reader.GetString(4);
+                    mak.Baslik = reader.GetString(5);
+                    if (!reader.IsDBNull(6)) { mak.Icerik = reader.GetString(6); }
+                    if (!reader.IsDBNull(7)) { mak.Ozet = reader.GetString(7); }
+                    mak.KapakResim = reader.GetString(8);
+                    mak.GoruntulemeSayi = reader.GetInt32(9);
+                    mak.EklemeTarihi = reader.GetDateTime(10);
+                    mak.SilinmisMi = reader.GetBoolean(11);
+                    mak.AktifMi = reader.GetBoolean(12);
+                    mak.AktifMiStr = reader.GetBoolean(12) ? "Aktif" : "Pasif";
+                }
+                return mak;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public bool MakaleDuzenle(Makale mak)
+        {
+            try
+            {
+                cmd.CommandText = "UPDATE Makaleler SET Baslik = @baslik, KategoriID = @kategoriId, Ozet=@ozet,Icerik=@icerik, KapakResim=@kapakresim, AktifMi=@aktifmi WHERE ID = @id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", mak.ID);
+                cmd.Parameters.AddWithValue("@baslik", mak.Baslik);
+                cmd.Parameters.AddWithValue("@kategoriId", mak.KategoriID);
+                cmd.Parameters.AddWithValue("@ozet", mak.Ozet);
+                cmd.Parameters.AddWithValue("@icerik", mak.Icerik);
+                cmd.Parameters.AddWithValue("@kapakresim", mak.KapakResim);
+                cmd.Parameters.AddWithValue("@aktifmi", mak.AktifMi);
                 con.Open();
                 cmd.ExecuteNonQuery();
                 return true;

@@ -60,7 +60,18 @@ body {
     padding: 15px;
     float: left;
 }
+.counts{
 
+}
+.countBox
+{
+    float:left;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #F26101;
+    margin-left:10px;
+}
 .formTasiyici {
 }
 
@@ -171,6 +182,11 @@ body {
     border-radius: 3px;
     color:#001473;
 }
+.sil {
+    background-color: #9a0b0b;
+    border-radius: 3px;
+    color: white;
+}
 .solKolon{
     float:left;
     width:500px;
@@ -182,8 +198,12 @@ body {
 .fullwith{
     width:95%;
 }
-.dropdown
-{
-    background-color:white;
-    width:420px;
+.dropdown {
+    width: 420px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #001473;
+    color: #001473;
+    margin-top: 10px;
+    background-color: white;
 }

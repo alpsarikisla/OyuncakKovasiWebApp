@@ -18,7 +18,7 @@
             <div class="solKolon">
                 <div class="satir">
                     <label class="etiket">Kategori</label><br />
-                    <asp:DropDownList ID="ddl_kategoriler" runat="server" DataValueField="ID" DataTextField="Isim" CssClass="metinKutu dropdown"></asp:DropDownList>
+                    <asp:DropDownList ID="ddl_kategoriler" runat="server" DataValueField="ID" DataTextField="Isim" CssClass="dropdown"></asp:DropDownList>
                 </div>
                 <div class="satir">
                     <label class="etiket">Başlık</label><br />

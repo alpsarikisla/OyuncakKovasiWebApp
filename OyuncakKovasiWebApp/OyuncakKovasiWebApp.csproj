@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MakaleResimleri\98dd17a6-1499-4aa8-9ba6-08c3cb126ded.png" />
+    <Content Include="MakaleResimleri\resimyok.png" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\Assets\ckeditor\adapters\jquery.js" />
     <Content Include="YoneticiPanel\Assets\ckeditor\build-config.js" />
@@ -497,7 +499,9 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\KategoriListeleGridView.aspx" />
+    <Content Include="YoneticiPanel\MakaleDuzenle.aspx" />
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
+    <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -537,12 +541,26 @@
     <Compile Include="YoneticiPanel\KategoriListeleGridView.aspx.designer.cs">
       <DependentUpon>KategoriListeleGridView.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.designer.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.designer.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -602,9 +620,7 @@
     <Content Include="YoneticiPanel\Assets\ckeditor\SECURITY.md" />
     <Content Include="YoneticiPanel\Assets\ckeditor\skins\moono-lisa\readme.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MakaleResimleri\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">
       <Project>{4a9ad305-e568-4d74-8de2-43df528f7af2}</Project>

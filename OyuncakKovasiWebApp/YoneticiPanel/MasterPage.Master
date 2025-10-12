@@ -30,7 +30,7 @@
                     <a href="KategoriEkle.aspx">Kategori Ekle</a>
                     <a href="KategoriListele.aspx">Kategoriler</a>
                     <a href="MakaleEkle.aspx">Makale Ekle</a>
-                    <a href="#">Makaleler</a>
+                    <a href="MakaleListele.aspx">Makaleler</a>
                     <a href="#">Yorumlar</a>
                     <a href="#">Üyeler</a>
                     <a href="#">Kullanıcılar</a>
