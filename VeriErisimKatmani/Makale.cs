@@ -19,6 +19,7 @@ namespace VeriErisimKatmani
         public string KapakResim { get; set; }
         public int GoruntulemeSayi { get; set; }
         public DateTime EklemeTarihi { get; set; }
+        public string EklemeTarihiStr { get; set; }
         public bool SilinmisMi { get; set; }
         public bool AktifMi { get; set; }
         public string AktifMiStr { get; set; }

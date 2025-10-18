@@ -1,0 +1,71 @@
+﻿*{margin:0;padding:0;}
+body {
+    font-family: Poppins;
+
+}
+.sayfaTasiyici
+{
+    width:1200px;
+    margin:0 auto;
+}
+.headerTasiyici {
+    margin: 20px 0;
+    color: #304269;
+}
+.anaMenuTasiyici {
+    border: 1px solid #304269;
+    border-left:none;
+    border-right:none;
+    padding:10px 0;
+}
+    .anaMenuTasiyici a {
+        padding: 10px;
+        padding-left: 0;
+        text-decoration: none;
+        color: #0bc172;
+    }
+.icerikTasiyici{
+    margin-top:10px;
+}
+.makaleler{
+    width:1000px;
+    float:left;
+}
+.reklamAlani
+{
+    width:160px;
+    float:left;
+    padding-left:20px;
+}
+.makale
+{
+    margin-bottom:35px;
+}
+.resimUstu
+{
+    margin-top:-50px;
+}
+    .resimUstu label {
+        background-color: #0bc172;
+        color: white;
+        padding: 10px;
+    }
+    .kategoriYazar {
+        color: dimgray;
+        border: 1px solid silver;
+        border-left: none;
+        border-right: none;
+        padding: 10px 0;
+    }
+.kategoriYazar label{
+    float:left;
+}
+    .kategoriYazar span {
+        float:right;
+    }
+.yazidevam {
+    color: #304269;
+}
+    .yazidevam:hover {
+        color: #0bc172;
+    }

@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\ArayuzStil.css" />
+    <Content Include="Assets\Reklamlar\160x600.gif" />
+    <Content Include="Default.aspx" />
     <Content Include="MakaleResimleri\98dd17a6-1499-4aa8-9ba6-08c3cb126ded.png" />
     <Content Include="MakaleResimleri\resimyok.png" />
     <Content Include="Web.config" />
@@ -505,6 +508,20 @@
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arayuz.Master.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arayuz.Master.designer.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="YoneticiPanel\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -578,6 +595,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Arayuz.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

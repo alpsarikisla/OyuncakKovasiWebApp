@@ -111,6 +111,37 @@ namespace VeriErisimKatmani
             catch { return null; }
             finally { con.Close(); }
         }
+        public List<Kategori> AktifKategoriListele()
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+            try
+            {
+                cmd.CommandText = "SELECT ID, Isim, AktifMi FROM Kategoriler WHERE AktifMi = 1";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = reader.GetInt32(0);
+                    kat.Isim = reader.GetString(1);
+                    kat.Durum = reader.GetBoolean(2);
+                    if (kat.Durum)
+                    {
+                        kat.DurumStr = "Aktif";
+                    }
+                    else
+                    {
+                        kat.DurumStr = "Pasif";
+                    }
+
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch { return null; }
+            finally { con.Close(); }
+        }
 
         public void KategoriDurumDegistir(int id)
         {
@@ -279,6 +310,7 @@ namespace VeriErisimKatmani
                     mak.KapakResim = reader.GetString(8);
                     mak.GoruntulemeSayi = reader.GetInt32(9);
                     mak.EklemeTarihi = reader.GetDateTime(10);
+                    mak.EklemeTarihiStr = mak.EklemeTarihi.ToShortDateString();
                     mak.SilinmisMi = reader.GetBoolean(11);
                     mak.AktifMi = reader.GetBoolean(12);
                     mak.AktifMiStr = reader.GetBoolean(12) ? "Aktif" : "Pasif";
