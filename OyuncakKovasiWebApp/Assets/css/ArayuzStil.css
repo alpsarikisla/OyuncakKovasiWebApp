@@ -1,71 +1,211 @@
-﻿*{margin:0;padding:0;}
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Poppins;
-
 }
-.sayfaTasiyici
+
+.sayfaTasiyici {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.altkisim
 {
-    width:1200px;
-    margin:0 auto;
+    min-height:200px;
+    background-color:#efefef;
 }
 .headerTasiyici {
     margin: 20px 0;
     color: #304269;
 }
+
+    .headerTasiyici h2 {
+        float: left;
+    }
+
+.uyegiris {
+    width: 500px;
+    float: right;
+}
+
+.uyeolbutton {
+    color: #304269;
+    margin-right: 25px;
+    float:right;
+}
+
+.girisyapbutton {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #304269;
+    float: right;
+    margin-top:-5px;
+}
+
 .anaMenuTasiyici {
     border: 1px solid #304269;
-    border-left:none;
-    border-right:none;
-    padding:10px 0;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
 }
+
     .anaMenuTasiyici a {
         padding: 10px;
         padding-left: 0;
         text-decoration: none;
         color: #0bc172;
     }
-.icerikTasiyici{
-    margin-top:10px;
+
+.icerikTasiyici {
+    margin-top: 10px;
 }
-.makaleler{
-    width:1000px;
-    float:left;
+
+.makaleler {
+    width: 1000px;
+    float: left;
 }
-.reklamAlani
-{
-    width:160px;
-    float:left;
-    padding-left:20px;
+
+.reklamAlani {
+    width: 160px;
+    float: left;
+    padding-left: 20px;
 }
-.makale
-{
-    margin-bottom:35px;
+
+.makale {
+    margin-bottom: 35px;
 }
-.resimUstu
-{
-    margin-top:-50px;
+
+.resimUstu {
+    margin-top: -50px;
 }
+
     .resimUstu label {
         background-color: #0bc172;
         color: white;
         padding: 10px;
     }
-    .kategoriYazar {
-        color: dimgray;
-        border: 1px solid silver;
-        border-left: none;
-        border-right: none;
-        padding: 10px 0;
-    }
-.kategoriYazar label{
-    float:left;
+
+.kategoriYazar {
+    color: dimgray;
+    border: 1px solid silver;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
 }
-    .kategoriYazar span {
-        float:right;
+
+    .kategoriYazar label {
+        float: left;
     }
+
+    .kategoriYazar span {
+        float: right;
+    }
+
 .yazidevam {
     color: #304269;
 }
+
     .yazidevam:hover {
         color: #0bc172;
     }
+
+.girisTasiyici {
+    border: 1px solid #304269;
+    padding: 20px;
+    width: 370px;
+    min-height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.golge {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+}
+
+.satir {
+    padding: 7px 0;
+}
+    .satir label {
+        color: #001473;
+    }
+    .satir .metinKutu {
+        width: 340px;
+        padding: 10px;
+        border-radius: 7px;
+        border: 1px solid #0bc172;
+        color: #001473;
+    }
+
+.buton {
+    width: 360px;
+    padding: 10px 0;
+    background-color: #304269;
+    color: white;
+    font-weight: 900;
+    font-size: 14pt;
+    border-radius: 15px;
+    border: none;
+}
+
+    .buton:hover {
+        background-color: #0bc172;
+        cursor: pointer;
+    }
+.yorumTasiyici
+{
+    
+}
+.yorumbaslik {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid silver;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #ebebeb;
+    color:#304269;
+}
+.yorumIcerik {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid silver;
+    border-top:none;
+    padding: 10px;
+}
+.girisyaplink
+{
+    text-decoration:none;
+    color:#0bc172;
+}
+.yorumsatir
+{
+    padding:15px 0;
+}
+.yorumMetinKutu {
+    width: 960px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #0bc172;
+    color: #001473;
+}
+.basariliPanel {
+    background-color: #a6ffa8;
+    color: #0c7a0e;
+    border: 1px solid #0c7a0e;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.basarisizPanel {
+    background-color: #ffb3b3;
+    color: #9a0b0b;
+    border: 1px solid #9a0b0b;
+    border-radius: 7px;
+    padding: 20px;
+}

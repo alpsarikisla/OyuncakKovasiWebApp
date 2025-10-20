@@ -352,6 +352,7 @@ namespace VeriErisimKatmani
                     mak.KapakResim = reader.GetString(8);
                     mak.GoruntulemeSayi = reader.GetInt32(9);
                     mak.EklemeTarihi = reader.GetDateTime(10);
+                    mak.EklemeTarihiStr = mak.EklemeTarihi.ToShortDateString();
                     mak.SilinmisMi = reader.GetBoolean(11);
                     mak.AktifMi = reader.GetBoolean(12);
                     mak.AktifMiStr = reader.GetBoolean(12) ? "Aktif" : "Pasif";
@@ -388,6 +389,117 @@ namespace VeriErisimKatmani
             catch
             {
                 return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        #endregion
+
+        #region Üye Metotları
+
+
+        public bool KayitOl()
+        {
+            return false;
+        }
+
+        public Uye GirisYap(string mail, string sifre)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT COUNT(*) FROM Uyeler WHERE Mail = @m AND Sifre = @s";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@m", mail);
+                cmd.Parameters.AddWithValue("@s", sifre);
+                con.Open();
+                int sayi = Convert.ToInt32(cmd.ExecuteScalar());
+                if (sayi != 0)
+                {
+                    cmd.CommandText = "SELECT ID,Isim,Soyisim,KullaniciAdi,Mail,Sifre,AktifMi FROM Uyeler WHERE Mail=@m AND Sifre=@s";
+                    cmd.Parameters.Clear();
+                    cmd.Parameters.AddWithValue("@m", mail);
+                    cmd.Parameters.AddWithValue("@s", sifre);
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    Uye u = new Uye();
+                    while (reader.Read())
+                    {
+                        u.ID = reader.GetInt32(0);
+                        u.Isim = reader.GetString(1);
+                        u.Soyisim = reader.GetString(2);
+                        u.KullaniciAdi = reader.GetString(3);
+                        u.Mail = reader.GetString(4);
+                        u.sifre = reader.GetString(5);
+                        u.AktifMi = reader.GetBoolean(6);
+                    }
+                    return u;
+                }
+                return null;
+            }
+            catch { return null; }
+            finally { con.Close(); }
+        }
+
+        #endregion
+
+        #region Yorum Metotları
+
+        public bool YorumYap(Yorum y)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Yorumlar (MakaleID,UyeID,Icerik,Tarih,Yayinla) VALUES(@makaleID,@uyeID,@icerik,@tarih,@yayinla)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@makaleID", y.MakaleID);
+                cmd.Parameters.AddWithValue("@uyeID", y.UyeID);
+                cmd.Parameters.AddWithValue("@icerik", y.Icerik);
+                cmd.Parameters.AddWithValue("@tarih", y.Tarih);
+                cmd.Parameters.AddWithValue("@yayinla", y.Yayinla);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public List<Yorum> OnayliMakaleYorumlari(int MakaleID)
+        {
+            List<Yorum> yorumlar = new List<Yorum>();
+            try
+            {
+                cmd.CommandText = "SELECT Y.ID, Y.MakaleID, Y.UyeID, U.KullaniciAdi, Y.Icerik, Y.Tarih, Y.Yayinla FROM Yorumlar AS Y JOIN Uyeler AS U ON Y.UyeID=U.ID WHERE Y.MakaleID = @id AND Y.Yayinla = 1";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", MakaleID);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Yorum y = new Yorum();
+                    y.ID = reader.GetInt32(0);
+                    y.MakaleID = reader.GetInt32(1);
+                    y.UyeID = reader.GetInt32(2);
+                    y.Uye = reader.GetString(3);
+                    y.Icerik = reader.GetString(4);
+                    y.Tarih = reader.GetDateTime(5);
+                    y.TarihStr = y.Tarih.ToShortDateString();
+                    y.Yayinla = reader.GetBoolean(6);
+                    y.YayinlaStr = y.Yayinla ? "Yayında" : "Engelli";
+                    yorumlar.Add(y);
+
+                }
+                return yorumlar;
+            }
+            catch
+            {
+                return null;
             }
             finally
             {

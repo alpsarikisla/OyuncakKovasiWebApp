@@ -14,6 +14,15 @@
         <div class="sayfaTasiyici">
             <div class="headerTasiyici">
                 <h2>Oyuncak Kavası <small style="font-size: 10pt; font-weight: 400;">Bu Kovada Oyun Var</small> </h2>
+                <asp:Panel ID="pnl_girisyok" runat="server" class="uyegiris">
+                    <a href="GirisYap.aspx" class="girisyapbutton">Giriş Yap</a>
+                    <a href="uyeOl.aspx" class="uyeolbutton">Üye Ol</a>
+                </asp:Panel>
+                <asp:Panel ID="pnl_girisVar" runat="server" CssClass="uyegiris" Visible="false">
+                     <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="girisyapbutton" OnClick="lbtn_cikis_Click">Çıkış Yap</asp:LinkButton>
+                    <asp:Label ID="lbl_uye" runat="server" CssClass="uyeolbutton"></asp:Label>
+                </asp:Panel>
+                <div style="clear: both"></div>
             </div>
             <div class="anaMenuTasiyici">
                 <asp:Repeater ID="rp_kategoriler" runat="server">
@@ -36,7 +45,11 @@
             </div>
 
         </div>
-
+        <div class="altkisim">
+           <%-- <div class="sayfaTasiyici">
+                Deneme bıdı bıde
+            </div>--%>
+        </div>
     </form>
 </body>
 </html>

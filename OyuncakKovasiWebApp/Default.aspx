@@ -23,7 +23,7 @@
                 <div style="margin-top:10px;">
                     <%# Eval("Ozet") %>
                     <br />
-                    <a href="#" class="yazidevam">Yazının Devamı ...</a>
+                    <a href='MakaleDetay.aspx?makaleID=<%# Eval("ID") %>' class="yazidevam">Yazının Devamı ...</a>
                 </div>
             </article>
         </ItemTemplate>
